@@ -13,6 +13,7 @@ namespace AspNetCoreBackend
     {
         public static void Main(string[] args)
         {
+            // alustetaan sovellus
             CreateHostBuilder(args).Build().Run();
         }
 
