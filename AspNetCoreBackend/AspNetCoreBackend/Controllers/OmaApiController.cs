@@ -11,9 +11,16 @@ namespace AspNetCoreBackend.Controllers
     [ApiController]
     public class OmaApiController : ControllerBase
     {
+        [Route("luku")]
         public int Luku()
         {
             return 123;
+        }
+
+        [Route("merkkijono")]
+        public string Merkkijono()
+        {
+            return "ABCD";
         }
     }
 }
