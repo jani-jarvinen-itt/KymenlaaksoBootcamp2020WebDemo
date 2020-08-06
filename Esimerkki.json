@@ -1,0 +1,9 @@
+{
+    "nimi": "Teppo Testaaja",
+    "puhelin": "050 12345678",
+    "osoite": {
+        "katu": "Kotikatu",
+        "numero": "12 B",
+        "postinumero": "12345"
+    }
+}

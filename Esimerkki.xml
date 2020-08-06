@@ -1,0 +1,9 @@
+<henkilö>
+    <nimi>Teppo Testaaja</nimi>
+    <puhelin>050 12345678</puhelin>
+    <osoite>
+        <katu>Kotikatu</katu>
+        <numero>12 B</numero>
+        <postinumero>12345</postinumero>
+    </osoite>
+</henkilö>
