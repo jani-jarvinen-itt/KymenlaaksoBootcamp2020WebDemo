@@ -17,8 +17,22 @@ namespace TietokantaDemoAdoNet
             SqlConnection yhteys = new SqlConnection(yhteysmerkkijono);
             yhteys.Open();
 
-            Console.WriteLine("Tietokantayhtes avattu onnistuneesti.");
+            Console.WriteLine("Tietokantayhteys avattu onnistuneesti.");
 
+            string sql = "SELECT CompanyName FROM Customers WHERE Country = 'Finland'";
+            SqlCommand komento = new SqlCommand(sql, yhteys);
+            SqlDataReader lukija = komento.ExecuteReader();
+
+            while (lukija.Read())
+            {
+                Console.WriteLine("Asiakas: " + lukija["CompanyName"]);
+            }
+
+            lukija.Close();
+            komento.Dispose();
+
+            Console.WriteLine();
+            Console.WriteLine("Valmis, suljetaan tietokantayhteys.");
             yhteys.Close();
             Console.ReadLine();
         }
