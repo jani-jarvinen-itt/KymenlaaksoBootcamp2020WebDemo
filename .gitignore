@@ -5,3 +5,5 @@
 /AspNetCoreBackend/.vs/AspNetCoreBackend
 /AspNetCoreBackend/AspNetCoreBackend/bin/Debug/netcoreapp3.1
 /AspNetCoreBackend/AspNetCoreBackend/obj
+/AspNetCoreBackend/TietokantaDemoAdoNet/bin/Debug
+/AspNetCoreBackend/TietokantaDemoAdoNet/obj/Debug
