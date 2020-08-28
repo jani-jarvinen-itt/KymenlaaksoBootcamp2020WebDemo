@@ -7,18 +7,18 @@ namespace OlioOhjelmointi
     class Auto
     {
         // metodit
-        void Käynnistä()
+        public void Käynnistä()
         {
         }
 
-        void Sammuta()
+        public void Sammuta()
         {
         }
 
         // ominaisuudet
-        string Väri { get; set; }
+        public string Väri { get; set; }
 
-        int Huippunopeus { get; set; }
+        public int Huippunopeus { get; set; }
 
         public string Merkki { get; set; }
     }
